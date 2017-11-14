@@ -1,0 +1,28 @@
+<style>
+body 
+.new {color: darkcyan; 
+    font-family: sans-serif;
+    background-image:url(https://thebucketlistlife.com/wp-content/uploads/2014/12/redyarn.jpg)
+    background-position: center;
+    height: 100vh;
+    
+}
+h1{color:#333399; font-size: 2.3em;
+    border-bottom: 7px solid #FF3366	; 
+        text-align: center;
+        font-weight: bold;
+        font-family:fantasy;
+}  
+h2{color:#FF3366; font-size: 2em;
+    display: inline;
+    border-bottom: 7px solid #333399;
+    font-weight: bold;
+    font-family:fantasy;
+    
+}
+ul {font-size: 1.5em;
+    color: #333399
+}
+a {color: #FF3366}
+img {border: 5px solid #333399}
+</style>
