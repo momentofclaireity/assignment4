@@ -1,7 +1,7 @@
 <head>
 <style>
     
-.inlineblock {
+.inlineBlock {
     display: inline-block;
     }
     
@@ -17,14 +17,22 @@
     <label>Password:<input type="password" name="password" id="password"> </label><br><br>
     <label>Option 1: </label><input type="checkbox" name="checkbox" id="checkbox"><br><br>
     <label>Option 2:</label><input type="checkbox" name="checkbox" id="checkbox"><br><br>
-    <input type="radio" class="inlineblock" name="gender" value="male"><br><br>
+    <input type="radio" class="inlineBlock" name="gender" value="male"><br><br>
     <label>Male</label><br><br>
-    <input type="radio" class="inlineblock" name="gender" value="female"><br><br>
+    <input type="radio" class="inlineBlock" name="gender" value="female"><br><br>
     <label>Female</label><br><br>
     <label for="comments">Comments</label><br>
     <textarea name="comments" id="comments" rows="4" cols="40"> </textarea>
 <br>
 <br>
+    <fieldset>
+    <legend>Gender</legend>
+    <input type="radio" class="inlineBlock" name="gender" value ="male">Male<br>
+    <input type="radio" class="inlineBlock" name="gender" value ="male">Female<br>
+    <input type="radio" class="inlineBlock" name="gender" value ="male">Other<br>
+    <input type="radio" class="inlineBlock" name="gender" value ="male">Prefer not to say<br>
+    </fieldset>
+    <br>
     <select name="dogs">
     <option value="0">-Select One-</option>
     <option value="0"> Golden lab</option>
