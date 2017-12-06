@@ -1,46 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    
 <head>
-<style>
+    <meta charset="utf-8">
+    <title>Life with Binx!</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style> body {background-image:url(https://thebucketlistlife.com/wp-content/uploads/2014/12/redyarn.jpg)
+        }
     
-.inlineBlock {
-    display: inline-block;
-    }
+h1{color:#333399; font-size: 2.3em;
+    border-bottom: 7px solid #FF3366	; 
+        text-align: center;
+        font-weight: bold;
+        font-family:fantasy;
+}  
+h2{color:#FF3366; font-size: 1.7em;
+    border-bottom: 7px solid #333399;
+    float: right;
+    font-weight: bold;
+    font-family:fantasy;
     
+}
+h3 {color:#333399; font-size: 1.5em;}
+        fieldset {display:inline;
+            float: left;
+                    padding: 10px;}
+        textarea {position:static;
+            float:right;
+                    padding: 10px;}
+h4 {color:#333399; font-size: 1.5em;
+            display:inline-block;
+            float: right;}
+        h5 {color: #333399; font-size: 1.5em;
+            display: inline;
+            float:right;}
 </style>
 </head>
 
 <body>
-<h1> Join our newsletter </h1>
-<form method=”get”>
-    <label>First Name: <input type="text" name="fname" id="fname"> </label><br><br>
-    <label>Last Name: <input type="text" name="lname" id="lname"> </label><br><br>
-    <label>Email: <input type="text" name="email" id="email"> </label><br><br>
-    <label>Password:<input type="password" name="password" id="password"> </label><br><br>
-    <label>Option 1: </label><input type="checkbox" name="checkbox" id="checkbox"><br><br>
-    <label>Option 2:</label><input type="checkbox" name="checkbox" id="checkbox"><br><br>
-    <input type="radio" class="inlineBlock" name="gender" value="male"><br><br>
-    <label>Male</label><br><br>
-    <input type="radio" class="inlineBlock" name="gender" value="female"><br><br>
-    <label>Female</label><br><br>
-    <label for="comments">Comments</label><br>
-    <textarea name="comments" id="comments" rows="4" cols="40"> </textarea>
-<br>
-<br>
-    <fieldset>
-    <legend>Gender</legend>
-    <input type="radio" class="inlineBlock" name="gender" value ="male">Male<br>
-    <input type="radio" class="inlineBlock" name="gender" value ="male">Female<br>
-    <input type="radio" class="inlineBlock" name="gender" value ="male">Other<br>
-    <input type="radio" class="inlineBlock" name="gender" value ="male">Prefer not to say<br>
-    </fieldset>
-    <br>
-    <select name="dogs">
-    <option value="0">-Select One-</option>
-    <option value="0"> Golden lab</option>
-    <option value="1"> Black lab</option>
+    <h1>Join our newsletter! </h1>
     
+    <form method=”get”>
+        <br>
+         <h2>Tell us what pets you love!</h2><br><br>
+        <h4>
+        <input type="checkbox" name="checkbox" id="checkbox"> <label>Kitty </label><br><br>
+        <input type="checkbox" name="checkbox" id="checkbox"> <label>Doggy</label><br><br>
+        <input type="checkbox" name="checkbox" id="checkbox"> <label> Rodents</label><br><br>
+        <input type="checkbox" name="checkbox" id="checkbox"> <label> Reptiles</label><br><br>
+        <input type="checkbox" name="checkbox" id="checkbox"> <label> Birds</label><br><br>
+        <input type="checkbox" name="checkbox" id="checkbox"> <label> Other:</label><br>
+        <textarea name="comments" id="comments" rows="4" cols="10"> </textarea>
+        <h3><label>First Name: <input type="text" name="fname" id="fname"> </label><br><br>
+        <label>Last Name: <input type="text" name="lname" id="lname"> </label><br><br>
+        <label>Email: <input type="text" name="email" id="email"> </label><br><br>
+      
+        <fieldset>
+               <h3> <legend>Gender:</legend><br>
+            <input type="radio" class="inlineBlock" name="gender" value="male">Male<br>
+            <input type="radio" class="inlineBlock" name="gender" value="male">Female<br>
+            <input type="radio" class="inlineBlock" name="gender" value="male">Other<br>
+            <input type="radio" class="inlineBlock" name="gender" value="male">Prefer not to say<br></h3>
+               <button>Submit</button>
+        </fieldset><br><br>
+              </h3>       
+ 
+          <h5><label for="comments">Comments:</label><br>
+         <textarea name="comments" id="comments" rows="4" cols="20"> </textarea>
+        <br>
+     </h5>
+       
+       
+         
+      
+   
     
     </select>
-    <button>Submit</button>
-<input type=”submit” values=”Sign Me Up!”> <input type=”reset”>
-</form>
+      
+    </form>
+    
+    
+    
+    <br>
 </body>
